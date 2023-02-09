@@ -1,0 +1,39 @@
+.container {
+	max-width: 90%;
+}
+
+.navbar {
+	background-color: $colour-dark;
+}
+
+.form {
+	float: right;
+}
+.btn-primary {
+	color: $colour-dark;
+	margin-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+li {
+	list-style: none;
+}
+
+.nav-link svg {
+	color: $colour-primary;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+.nav-link p {
+	color: $colour-primary;
+}
+
+@media (max-width: 576px) {
+	.nav-link svg {
+		color: $colour-secondary;
+		margin-right: 1em;
+		margin-bottom: 1em;
+	}
+}
